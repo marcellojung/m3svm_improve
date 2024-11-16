@@ -1,0 +1,282 @@
+Running R_MLR for dataset: Cornell
+(827, 4134) (827,)
+Epoch [5/500], Loss: 21.1502
+Test Accuracy: 0.1446
+Epoch [10/500], Loss: 38.8661
+Test Accuracy: 0.6807
+Early stopping at epoch 11
+Total Test Accuracy for Cornell: 0.6807
+Running R_MLR for dataset: ISOLET
+(1560, 617) (1560,)
+Epoch [5/500], Loss: 0.7750
+Test Accuracy: 0.0481
+Epoch [10/500], Loss: 0.6129
+Test Accuracy: 0.0801
+Epoch [15/500], Loss: 0.4776
+Test Accuracy: 0.1635
+Epoch [20/500], Loss: 0.3669
+Test Accuracy: 0.1635
+Epoch [25/500], Loss: 0.2799
+Test Accuracy: 0.1923
+Epoch [30/500], Loss: 0.2161
+Test Accuracy: 0.1506
+Epoch [35/500], Loss: 0.1759
+Test Accuracy: 0.1410
+Epoch [40/500], Loss: 0.1586
+Test Accuracy: 0.1218
+Epoch [45/500], Loss: 0.1524
+Test Accuracy: 0.1250
+Epoch [50/500], Loss: 0.1401
+Test Accuracy: 0.1346
+Epoch [55/500], Loss: 0.1308
+Test Accuracy: 0.1474
+Epoch [60/500], Loss: 0.1242
+Test Accuracy: 0.1474
+Epoch [65/500], Loss: 0.1179
+Test Accuracy: 0.1763
+Epoch [70/500], Loss: 0.1131
+Test Accuracy: 0.1923
+Epoch [75/500], Loss: 0.1087
+Test Accuracy: 0.2436
+Epoch [80/500], Loss: 0.1046
+Test Accuracy: 0.3141
+Epoch [85/500], Loss: 0.1005
+Test Accuracy: 0.4071
+Epoch [90/500], Loss: 0.0981
+Test Accuracy: 0.4263
+Epoch [95/500], Loss: 0.0949
+Test Accuracy: 0.4615
+Epoch [100/500], Loss: 0.0915
+Test Accuracy: 0.4808
+Epoch [105/500], Loss: 0.0900
+Test Accuracy: 0.4808
+Epoch [110/500], Loss: 0.0883
+Test Accuracy: 0.4776
+Epoch [115/500], Loss: 0.0872
+Test Accuracy: 0.4647
+Epoch [120/500], Loss: 0.0876
+Test Accuracy: 0.4744
+Epoch [125/500], Loss: 0.0864
+Test Accuracy: 0.4840
+Epoch [130/500], Loss: 0.0857
+Test Accuracy: 0.4904
+Epoch [135/500], Loss: 0.0852
+Test Accuracy: 0.4968
+Epoch [140/500], Loss: 0.0848
+Test Accuracy: 0.4936
+Epoch [145/500], Loss: 0.0844
+Test Accuracy: 0.4936
+Epoch [150/500], Loss: 0.0846
+Test Accuracy: 0.4904
+Epoch [155/500], Loss: 0.0844
+Test Accuracy: 0.4904
+Epoch [160/500], Loss: 0.0840
+Test Accuracy: 0.4968
+Epoch [165/500], Loss: 0.0839
+Test Accuracy: 0.5000
+Epoch [170/500], Loss: 0.0831
+Test Accuracy: 0.5000
+Epoch [175/500], Loss: 0.0835
+Test Accuracy: 0.5000
+Epoch [180/500], Loss: 0.0832
+Test Accuracy: 0.5032
+Epoch [185/500], Loss: 0.0831
+Test Accuracy: 0.5032
+Epoch [190/500], Loss: 0.0823
+Test Accuracy: 0.5064
+Epoch [195/500], Loss: 0.0820
+Test Accuracy: 0.5160
+Epoch [200/500], Loss: 0.0824
+Test Accuracy: 0.5224
+Epoch [205/500], Loss: 0.0822
+Test Accuracy: 0.5256
+Epoch [210/500], Loss: 0.0817
+Test Accuracy: 0.5224
+Epoch [215/500], Loss: 0.0818
+Test Accuracy: 0.5224
+Epoch [220/500], Loss: 0.0820
+Test Accuracy: 0.5224
+Early stopping at epoch 221
+Total Test Accuracy for ISOLET: 0.5224
+Running R_MLR for dataset: HHAR
+(10299, 561) (10299,)
+Epoch [5/500], Loss: 0.5801
+Test Accuracy: 0.3607
+Epoch [10/500], Loss: 0.4656
+Test Accuracy: 0.4529
+Epoch [15/500], Loss: 0.3802
+Test Accuracy: 0.4816
+Epoch [20/500], Loss: 0.3554
+Test Accuracy: 0.3932
+Epoch [25/500], Loss: 0.3798
+Test Accuracy: 0.5709
+Early stopping at epoch 29
+Total Test Accuracy for HHAR: 0.5709
+Running R_MLR for dataset: USPS
+(9298, 256) (9298,)
+Epoch [5/500], Loss: 0.3205
+Test Accuracy: 0.5156
+Epoch [10/500], Loss: 0.2647
+Test Accuracy: 0.7242
+Epoch [15/500], Loss: 0.2007
+Test Accuracy: 0.8457
+Epoch [20/500], Loss: 0.1789
+Test Accuracy: 0.8210
+Epoch [25/500], Loss: 0.1476
+Test Accuracy: 0.8231
+Epoch [30/500], Loss: 0.1321
+Test Accuracy: 0.8742
+Epoch [35/500], Loss: 0.1380
+Test Accuracy: 0.8661
+Epoch [40/500], Loss: 0.1223
+Test Accuracy: 0.9032
+Epoch [45/500], Loss: 0.1239
+Test Accuracy: 0.7677
+Epoch [50/500], Loss: 0.1516
+Test Accuracy: 0.8758
+Early stopping at epoch 54
+Total Test Accuracy for USPS: 0.8758
+Running R_MLR for dataset: ORL
+(400, 1024) (400,)
+Epoch [5/500], Loss: 10.5379
+Test Accuracy: 0.0250
+Epoch [10/500], Loss: 8.9090
+Test Accuracy: 0.0000
+Epoch [15/500], Loss: 7.6226
+Test Accuracy: 0.0250
+Epoch [20/500], Loss: 6.0422
+Test Accuracy: 0.0250
+Epoch [25/500], Loss: 4.4222
+Test Accuracy: 0.0250
+Epoch [30/500], Loss: 3.0564
+Test Accuracy: 0.0000
+Epoch [35/500], Loss: 2.2070
+Test Accuracy: 0.0000
+Epoch [40/500], Loss: 1.6490
+Test Accuracy: 0.0000
+Epoch [45/500], Loss: 1.3029
+Test Accuracy: 0.0000
+Epoch [50/500], Loss: 1.0774
+Test Accuracy: 0.0000
+Epoch [55/500], Loss: 0.9340
+Test Accuracy: 0.0000
+Epoch [60/500], Loss: 0.8251
+Test Accuracy: 0.0000
+Epoch [65/500], Loss: 0.7545
+Test Accuracy: 0.0000
+Epoch [70/500], Loss: 0.7163
+Test Accuracy: 0.0000
+Epoch [75/500], Loss: 0.7068
+Test Accuracy: 0.0000
+Epoch [80/500], Loss: 0.7617
+Test Accuracy: 0.0000
+Epoch [85/500], Loss: 0.7134
+Test Accuracy: 0.0000
+Early stopping at epoch 86
+Total Test Accuracy for ORL: 0.0000
+Running R_MLR for dataset: Dermatology
+(366, 34) (366,)
+Epoch [5/500], Loss: 11.6363
+Test Accuracy: 0.8243
+Epoch [10/500], Loss: 5.4774
+Test Accuracy: 0.9595
+Epoch [15/500], Loss: 2.7137
+Test Accuracy: 0.6216
+Epoch [20/500], Loss: 2.5375
+Test Accuracy: 0.6486
+Epoch [25/500], Loss: 1.8708
+Test Accuracy: 0.8784
+Epoch [30/500], Loss: 1.2683
+Test Accuracy: 0.9054
+Epoch [35/500], Loss: 1.0279
+Test Accuracy: 0.8919
+Epoch [40/500], Loss: 0.7953
+Test Accuracy: 0.8784
+Epoch [45/500], Loss: 0.6615
+Test Accuracy: 0.9189
+Epoch [50/500], Loss: 0.5590
+Test Accuracy: 0.8784
+Epoch [55/500], Loss: 0.5011
+Test Accuracy: 0.8919
+Epoch [60/500], Loss: 0.4523
+Test Accuracy: 0.8919
+Epoch [65/500], Loss: 0.4343
+Test Accuracy: 0.9054
+Epoch [70/500], Loss: 0.4161
+Test Accuracy: 0.9324
+Epoch [75/500], Loss: 0.4025
+Test Accuracy: 0.9189
+Epoch [80/500], Loss: 0.3851
+Test Accuracy: 0.9189
+Epoch [85/500], Loss: 0.3865
+Test Accuracy: 0.9595
+Epoch [90/500], Loss: 0.3770
+Test Accuracy: 0.9054
+Epoch [95/500], Loss: 0.3876
+Test Accuracy: 0.9595
+Early stopping at epoch 100
+Total Test Accuracy for Dermatology: 0.9595
+Running R_MLR for dataset: Vehicle
+(846, 18) (846,)
+Epoch [5/500], Loss: 3.4951
+Test Accuracy: 0.2824
+Epoch [10/500], Loss: 0.3991
+Test Accuracy: 0.3059
+Epoch [15/500], Loss: 0.3861
+Test Accuracy: 0.2353
+Epoch [20/500], Loss: 0.4097
+Test Accuracy: 0.2353
+Early stopping at epoch 24
+Total Test Accuracy for Vehicle: 0.2353
+Running R_MLR for dataset: Glass
+(214, 9) (214,)
+Epoch [5/500], Loss: 0.6289
+Test Accuracy: 0.2558
+Epoch [10/500], Loss: 0.3017
+Test Accuracy: 0.3256
+Epoch [15/500], Loss: 0.2860
+Test Accuracy: 0.3256
+Epoch [20/500], Loss: 0.2653
+Test Accuracy: 0.2558
+Epoch [25/500], Loss: 0.2569
+Test Accuracy: 0.2558
+Epoch [30/500], Loss: 0.2553
+Test Accuracy: 0.3256
+Epoch [35/500], Loss: 0.2536
+Test Accuracy: 0.3256
+Epoch [40/500], Loss: 0.2504
+Test Accuracy: 0.2558
+Epoch [45/500], Loss: 0.2538
+Test Accuracy: 0.2558
+Epoch [50/500], Loss: 0.2495
+Test Accuracy: 0.3256
+Epoch [55/500], Loss: 0.2508
+Test Accuracy: 0.3256
+Epoch [60/500], Loss: 0.2462
+Test Accuracy: 0.3256
+Epoch [65/500], Loss: 0.2455
+Test Accuracy: 0.2558
+Epoch [70/500], Loss: 0.2468
+Test Accuracy: 0.3256
+Epoch [75/500], Loss: 0.2475
+Test Accuracy: 0.3721
+Epoch [80/500], Loss: 0.2426
+Test Accuracy: 0.2558
+Epoch [85/500], Loss: 0.2364
+Test Accuracy: 0.2791
+Epoch [90/500], Loss: 0.2325
+Test Accuracy: 0.2791
+Epoch [95/500], Loss: 0.2268
+Test Accuracy: 0.2791
+Epoch [100/500], Loss: 0.2248
+Test Accuracy: 0.2791
+Epoch [105/500], Loss: 0.2238
+Test Accuracy: 0.2791
+Epoch [110/500], Loss: 0.2249
+Test Accuracy: 0.2791
+Epoch [115/500], Loss: 0.2221
+Test Accuracy: 0.2791
+Epoch [120/500], Loss: 0.2214
+Test Accuracy: 0.2791
+Early stopping at epoch 121
+Total Test Accuracy for Glass: 0.2791

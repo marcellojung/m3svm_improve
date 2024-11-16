@@ -80,7 +80,7 @@ def R_MLR(para):
             loss_list.append(loss.item())
             test_acc_list.append(test_acc)
 
-    print(f"Test Accuracy: {test_acc:.4f}")
+    print(f"Total Test Accuracy:{para.data}  : {test_acc:.4f}")
 
     epochs = np.arange(1, para.num_epoch+1, 5)
     # conver_plot(epochs, test_acc_list, loss_list)
