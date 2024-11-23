@@ -17,8 +17,8 @@ def Regularized_loss(model, n, y_pred, y_true, p=4, lam=0.01, l1_ratio=0.5):
     
     # 첫 번째 Linear 레이어의 가중치 사용
     L2_loss = 1/n * torch.norm(model.fc1.weight.unsqueeze(1) - model.fc1.weight.unsqueeze(0), p=2, dim=2).pow(p).sum()
+    # loss = classification_loss + lam * RG_loss
     L1_loss = torch.norm(model.fc1.weight, p=1)
-    
     loss = classification_loss + lam * ((1 - l1_ratio) * L2_loss + l1_ratio * L1_loss)
     return loss
 

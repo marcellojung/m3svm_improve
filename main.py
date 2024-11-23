@@ -4,8 +4,8 @@ from torch.optim import Adam
 import matplotlib.pyplot as plt
 import scipy.io as scio
 
-# from train import *
-from train_chg import *
+from train import *
+# from train_chg import *
 
 if __name__ == "__main__":
     import os
@@ -23,8 +23,8 @@ if __name__ == "__main__":
     parser.add_argument('--p', type=int, default=2)
     parser.add_argument('--state', type=int, default=42)
     parser.add_argument('--If_scale', default=True)
-    parser.add_argument('--scale_type', type=str, default='standard', 
-                    choices=['standard', 'minmax'], help='Choose the type of scaler: standard or minmax')
+    # parser.add_argument('--scale_type', type=str, default='standard', 
+    #                 choices=['standard', 'minmax'], help='Choose the type of scaler: standard or minmax')
 
     para = parser.parse_args()
     para.test_size = 0.2
