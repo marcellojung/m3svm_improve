@@ -1,0 +1,6 @@
+pandas==1.5.3  # Adjust version based on your environment
+torch==2.0.1   # Adjust version based on your environment
+numpy==1.24.2  # Adjust version based on your environment
+scikit-learn==1.2.2  # Adjust version based on your environment
+matplotlib==3.7.1  # Adjust version based on your environment
+scipy==1.10.1  # Adjust version based on your environment
