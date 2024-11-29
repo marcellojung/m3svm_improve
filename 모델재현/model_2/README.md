@@ -1,5 +1,9 @@
 ## 논문 제목 : Mishra, Saurav. "A comparative study for time-to-event analysis and survival prediction for heart failure condition using machine learning techniques." 
-
+    - 목적 : 머신러닝 기법을 활용한 심부전 환자의 생존 예측 및 주요 위험 요인 분석
+    - 주요기법 : SVM, Decision Tree, Random Forest, XGBoost, LightGBM  활용
+    - 선정이유 : 본 연구의 다양한 머신러닝 기법 학습에 활용
+    - 링크 : https://plos.figshare.com/articles/dataset/Survival_analysis_of_heart_failure_patients_A_case_study/5227684/1?file=8937223
+    - 코드 : https://github.com/sauravmishra1710/Heart-Failure-Condition-And-Survival-Analysis
 Journal of Electronics, Electromedical Engineering, and Medical Informatics 4.3 (2022): 115-134.
 
 ## Dataset
@@ -34,6 +38,13 @@ Faisalabad Institute of Cardiology에서 제공된 자료
 
 ![alt text](image.png)
 
-### 성능 재현
+### 성능 재현(논문)
 
 ![alt text](image-1.png)
+
+### 성능 재현(코드)
+ - SVM          | auc_roc : 0.871 | auc_pr : 0.885
+ - DecisionTree | auc_roc : 0.917 | auc_pr : 0.917 
+ - RandomForest | auc_roc : 0.884 | auc_pr : 0.884
+ - XGBoost      | auc_roc : 0.871 | auc_pr : 0.9
+ - LightGBM     | auc_roc : 0.861 | auc_pr : 0.87
