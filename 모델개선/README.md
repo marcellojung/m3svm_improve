@@ -6,16 +6,8 @@
 2. MLP 구조 활용: 복잡한 데이터 패턴을 학습할 수 있도록 은닉층 추가
 3. Early Stopping 도입: 학습을 조기에 종료하여 불필요한 계산을 방지하고 과적합 방지
 4. 학습률 스케줄러: 학습 초반에는 큰 변화, 후반에는 미세 조정을 지원
-## <기존 데이터 셋실험 결과>
-- Cornell: 0.8675(+ 0.0025)
-- ISOLET: 0.9679(+ 0.0229)
-- USPS: 0.9839(+ 0.0279)
-- ORL: 0.9875(+ 0.0125)
-- Dermatology: 1.000(+ 0.012)
-- Glass: 0.8372(+ 0.0932)
-- Vehicle: 0.9118(+ 0.1118)
-- HHAR: 0.9947(+ 0.0137)
 
+## <기존 데이터 셋실험 결과>
 
 | File | Dataset | Paper's Accuracy   | 개선모델 Accuracy |
 |-------|--------|---------------|----------|
@@ -39,5 +31,5 @@
 | RandomForest    | fashionMnist_otherModel | 0.8735        |
 | XGBoost    | fashionMnist_otherModel | 0.8926       |
 | LightGBM    | fashionMnist_otherModel | 0.89        |
-| M3SVN(paper)    | fashionMnist_upgrade | 0.8792        |
+| M3SVN(paper)    | fashionMnist_upgrade | 0.8563        |
 | **M3SVN(our improve)    | fashionMnist_upgrade | **0.9025**        |
