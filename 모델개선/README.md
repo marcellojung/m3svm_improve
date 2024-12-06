@@ -6,6 +6,12 @@
 2. MLP 구조 활용: 복잡한 데이터 패턴을 학습할 수 있도록 은닉층 추가
 3. Early Stopping 도입: 학습을 조기에 종료하여 불필요한 계산을 방지하고 과적합 방지
 4. 학습률 스케줄러: 학습 초반에는 큰 변화, 후반에는 미세 조정을 지원
+5. Random Search 알고리즘으로 최적의 하이퍼파라미터로 모델 튜닝
+    - Learning Rate : [0.001, 0.0005, 0.0001]
+    - Batch Size : [64, 128]
+    - Hidden Layer : [512, 1024]
+    - Drop Out : [0.3, 0.4]
+    - 결과 : {'lr': 0.0005, 'batch_size': 128, 'hidden_dim': 512, 'dropout_rate': 0.4}
 
 ## <기존 데이터 셋실험 결과>
 
@@ -31,5 +37,6 @@
 | RandomForest    | fashionMnist_otherModel | 0.8735        |
 | XGBoost    | fashionMnist_otherModel | 0.8926       |
 | LightGBM    | fashionMnist_otherModel | 0.89        |
-| M3SVN(paper)    | fashionMnist_upgrade | 0.8563        |
-| **M3SVN(our improve)    | fashionMnist_upgrade | **0.9025**        |
+| M3SVN(논문 모델)    | fashionMnist_upgrade | 0.8563        |
+| M3SVN(개선점 반영)    | fashionMnist_upgrade | **0.9025**        |
+| M3SVN(하이퍼 파라미터 튜닝)    | fashionMnist_upgrade | **0.9114**        |
