@@ -12,7 +12,7 @@
     - Batch Size : [64, 128]
     - Hidden Layer : [512, 1024]
     - Drop Out : [0.3, 0.4]
-    - 결과 : {'lr': 0.0005, 'batch_size': 128, 'hidden_dim': 512, 'dropout_rate': 0.4}
+    - 결과 : 'lr': 0.0005, 'batch_size': 128, 'hidden_dim': 512, 'dropout_rate': 0.4
 
 ## <기존 데이터 셋실험 결과>
 
@@ -39,5 +39,5 @@
 | XGBoost    | fashionMnist_otherModel | 0.8926       |
 | LightGBM    | fashionMnist_otherModel | 0.89        |
 | M3SVN(논문 모델)    | fashionMnist_upgrade | 0.8563        |
-| M3SVN(개선점 반영)    | fashionMnist_upgrade | **0.9025**        |
+| M3SVN(개선점 반영)    | fashionMnist_upgrade | 0.9025        |
 | M3SVN(하이퍼 파라미터 튜닝)    | fashionMnist_upgrade | **0.9114**        |
