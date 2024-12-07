@@ -16,7 +16,7 @@
     - Drop Out : [0.3, 0.4]
     - 결과 : 'lr': 0.0005, 'batch_size': 128, 'hidden_dim': 512, 'dropout_rate': 0.4
 
-## <기존 데이터 셋실험 결과>
+## <기존 데이터셋 실험 결과>
 
 | File | Dataset | Paper's Accuracy   | 개선모델 Accuracy |
 |-------|--------|---------------|----------|
