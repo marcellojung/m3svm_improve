@@ -1,11 +1,13 @@
 # 모델 개선사항
-## 키 아이디어 :
-* 손실 함수에서 마지막 선형 계층의 가중치 차이를 이용하여, 논문의 핵심 아이디어인 최소 마진 최대화는 그대로 반영
+## 키 아이디어 : 
+    손실 함수에서 마지막 선형 계층의 가중치 차이를 이용하여, 논문의 핵심 아이디어인 최소 마진 최대화는 그대로 반영한다. 
 ## <개선 사항>
 1. L1/L2 정규화 추가: 가중치를 제어하여 과적합 방지와 희소성 확보
-2. MLP 구조 활용: 복잡한 데이터 패턴을 학습할 수 있도록 은닉층 추가
+2. MLP 구조 활용: 복잡한 비선형 데이터 패턴을 학습할 수 있도록 은닉층 추가
 3. Early Stopping 도입: 학습을 조기에 종료하여 불필요한 계산을 방지하고 과적합 방지
 4. 학습률 스케줄러: 학습 초반에는 큰 변화, 후반에는 미세 조정을 지원
+
+
 ## <하이퍼 파라미터 튜닝>
 5. Random Search 알고리즘으로 최적의 하이퍼파라미터로 모델 튜닝
     - Learning Rate : [0.001, 0.0005, 0.0001]
@@ -33,11 +35,11 @@
 
 | Model | File   | Test Accuracy |
 |-------|--------|---------------|
-| SVM + RBF     | fashionMnist_otherModel | 0.8669        |
-|  DecisionTree   | fashionMnist_otherModel | 0.7901        |
-| RandomForest    | fashionMnist_otherModel | 0.8735        |
-| XGBoost    | fashionMnist_otherModel | 0.8926       |
-| LightGBM    | fashionMnist_otherModel | 0.89        |
-| M3SVN(논문 모델)    | fashionMnist_upgrade | 0.8563        |
-| M3SVN(개선점 반영)    | fashionMnist_upgrade | 0.9025        |
-| M3SVN(하이퍼 파라미터 튜닝)    | fashionMnist_upgrade | **0.9114**        |
+| SVM + RBF     | fashionMnist_otherModel.ipynb | 0.8669        |
+|  DecisionTree   | fashionMnist_otherModel.ipynb | 0.7901        |
+| RandomForest    | fashionMnist_otherModel.ipynb | 0.8735        |
+| XGBoost    | fashionMnist_otherModel.ipynb | 0.8926       |
+| LightGBM    | fashionMnist_otherModel.ipynb | 0.89        |
+| M3SVN(논문 모델)    | fashionMnist_upgrade.ipynb | 0.8563        |
+| M3SVN(개선점 반영)    | fashionMnist_upgrade.ipynb | 0.9025        |
+| M3SVN(하이퍼 파라미터 튜닝)    | fashionMnist_upgrade-RS.ipynb | **0.9114**        |
