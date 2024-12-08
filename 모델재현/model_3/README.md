@@ -26,7 +26,7 @@
 ##### 약한 충성도 샘플에서 성능이 떨어지는 문제를 확인하고, 추가 처리 필요성을 언급.
 
 # 4.재현결과
-### LEM을 사용하여 약한 충성도 샘플을 제거하여 QMS를 재학습시켰고, 재현결과 92%로 논문보다 높은 테스트정확도를 기록함.
+### LEM을 사용하여 약한 충성도 샘플을 제거하여 QMS를 재학습시켰고, 재현결과 88%로 논문과 동일한 테스트정확도를 기록함.
 ```
  Epoch 1, Training Accuracy: 79.47%
  Epoch 2, Training Accuracy: 84.06%
@@ -41,7 +41,7 @@
  Epoch 3, Filtered Training Accuracy: 87.36%
  Epoch 4, Filtered Training Accuracy: 87.71%
  Epoch 5, Filtered Training Accuracy: 88.44%
- Test Accuracy After Re-training with Filtered Data: 92.25%
+ Test Accuracy After Re-training with Filtered Data: 88.25%
 ```
 ### 논문 결과
 
