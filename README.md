@@ -1,4 +1,4 @@
-## 기계학습 특론 4조 Final Project Proposal
+## 기계학습 특론 5조 Final Project Proposal
 
 ### 프로젝트 개요
  - 구성원 : 이승필,정성근,임재이,홍나현,김영주
